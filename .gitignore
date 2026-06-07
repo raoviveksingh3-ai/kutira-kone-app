@@ -56,6 +56,7 @@ Thumbs.db
 # IDE cache files (JetBrains)
 *.bin
 *.lock
+*.properties
 deploymentTargetSelector.xml
 deviceStreaming.xml
 AndroidProjectSystem.xml
@@ -66,7 +67,13 @@ misc.xml
 planningMode.xml
 runConfigurations.xml
 workspace.xml
-*.properties
+buildOutputCleanup.lock
+executionHistory.bin
+executionHistory.lock
+fileHashes.lock
+cache.properties
+*.probe
+download*
 
 # Gradle wrapper (keep the files, ignore directory contents)
 !/gradle/wrapper/
@@ -77,11 +84,6 @@ target/
 
 # Misc
 .gradle
-*.swp
-*.swo
-*~
-.classpath
-.c9/
 .history/
 .vuepress/dist
 
