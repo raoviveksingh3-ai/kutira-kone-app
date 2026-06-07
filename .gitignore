@@ -1,29 +1,101 @@
 # Gradle files
 .gradle/
 build/
-*.lock
-*.bin
-*.log
+*.gradle.lock
+gradle-wrapper.properties
 
-# Android Studio
+# IDE - IntelliJ IDEA / Android Studio
 .idea/
 *.iml
 *.iws
 *.ipr
-*.apk
-*.ap_
-*.dex
+*.idev
+out/
+*.sublime-workspace
+*.sublime-project
+
+# IDE - VSCode
+.vscode/
+
+# Android Specific
+.externalNativeBuild/
+.cxx/
+captures/
+lint-results*.xml
 local.properties
 
 # Build outputs
 /outputs/
+*.apk
+*.ap_
+*.aar
+*.aab
+*.dex
 *.jks
+*.jkstore
 
-# IDE
-.vscode/
+# Logs
+*.log
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
 *.swp
 *.swo
+*~
+.classpath
+.c9/
 
-# Gradle wrapper
-!gradle/wrapper/gradle-wrapper.jar
+# IDE cache files (JetBrains)
+*.bin
+*.lock
+deploymentTargetSelector.xml
+deviceStreaming.xml
+AndroidProjectSystem.xml
+Project_Default.xml
+gradle.xml
+markdown.xml
+misc.xml
+planningMode.xml
+runConfigurations.xml
+workspace.xml
+*.properties
+
+# Gradle wrapper (keep the files, ignore directory contents)
+!/gradle/wrapper/
+/gradle/*.lock
+
+# Maven
+target/
+
+# Misc
+.gradle
+*.swp
+*.swo
+*~
+.classpath
+.c9/
+.history/
+.vuepress/dist
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Test coverage
+coverage/
+.coverage
+.coveragerc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
